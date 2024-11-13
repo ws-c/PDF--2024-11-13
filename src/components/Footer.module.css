@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding-top: 60px;
+  min-width: 100vw;
+}
+.container {
+  display: flex;
+  width: 50%;
+  border-top: 1px solid #e7e7e9;
+}
+.left {
+  padding-top: 20px;
+  display: flex;
+  gap: 32px;
+  flex: 1;
+  flex-direction: column;
+  color: #666;
+  line-height: 1.5;
+}
+.left .socials {
+  display: flex;
+  gap: 16px;
+}
+.socials a {
+  color: #9ca3af;
+}
+.right {
+  display: flex;
+  gap: 120px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+}
+.item span {
+  margin-bottom: 16px;
+  color: #999;
+}

@@ -1,0 +1,19 @@
+.bold {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.left a:hover {
+  color: gray;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.right a {
+  padding: 0.5rem 1rem;
+}
+.right a:hover {
+  color: gray;
+}
